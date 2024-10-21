@@ -10,7 +10,7 @@
 
 <body>
   <h1>Information Form</h1>
-  <form action="/action_page.php">
+  <form id="informationForm" action="/action_page.php">
     <fieldset>
       <legend>Personal Information</legend>
       
@@ -58,8 +58,13 @@
       
       <br><input type="reset" value="Reset"><br>
       <br><input type="submit" value="Submit"><br>
+
+      <br><button type="button" id="showData">Show Data</button><br>
+
+      <br><div id="displayData"></div><br>
     </fieldset>
   </form>
+
   <script src="script.js"></script>
 </body>
 
